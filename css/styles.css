@@ -47,3 +47,23 @@ a { font-size: 22px;
     width: 200px;
     height: 200px;
 }
+
+/* unvisted link */
+a:link {
+    color:red;
+}
+
+/* visited link */
+a:visited {
+    color:green;
+}
+
+/* mouse over link */
+a:hover {
+    color:pink;
+}
+
+/* selected link */
+a:active {
+    color:blue;
+}
