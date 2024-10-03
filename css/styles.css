@@ -6,7 +6,7 @@
     /* COLORS */
     --dark-brown: #402214;
     --lighter-brown: #774231;
-    --lighest-brown: #aa4b1b;
+    --lightest-brown: #aa4b1b;
 
     --darker-red: #b31714;
     --lighter-red: #dc3439;
@@ -21,6 +21,9 @@
 
     --big-font: 100px;
     --small-font: 6px;
+
+    --gradient: linear-gradient(to bottom right, red, yellow);
+    --gradient2: linear-gradient(to bottom right, blue, green);
 }
 
 .red-square {
@@ -121,4 +124,77 @@ a:active {
 
 .fancy-font {
     font-family: var(--fancy);
+}
+
+.button-container a{
+    width: 200px;
+    padding: 10px;
+    color: #FFF;
+    background-color: #F00;
+
+    /* Rounding the corners */
+    border-radius: 10px;
+
+    /* created with the shadow generator */
+    -webkit-box-shadow: 42px 41px 38px 10px rgba(212,41,7,0.66);
+    -moz-box-shadow: 42px 41px 38px 10px rgba(212,41,7,0.66);
+    box-shadow: 42px 41px 38px 10px rgba(212,41,7,0.66);
+
+    text-decoration: none;
+
+    transition: all 0.5s ease;
+}
+
+.button-container a:hover {
+    background-color: #AF1F16;
+    text-decoration: none;    
+}
+
+.button2-container a{
+    width: 200px;
+    padding: 10px;
+    color: #FFF;
+    background-color: var(--black);
+
+    /* Rounding the corners */
+    border-radius: 10px;
+
+    /* created with the shadow generator */
+    -webkit-box-shadow: 42px 41px 38px 10px rgba(212,41,7,0.66);
+    -moz-box-shadow: 42px 41px 38px 10px rgba(212,41,7,0.66);
+    box-shadow: 42px 41px 38px 10px rgba(212,41,7,0.66);
+
+    text-decoration: none;
+
+    transition: all 0.5s ease;
+}
+
+.button2-container a:hover {
+    background-color: var(--lighter-red);
+    text-decoration: none;    
+}
+
+.button3-container a{
+    width: 400px;
+    height:600px;
+    padding: 10px;
+    color: #FFF;
+    background-color: linear-gradient(red, yellow);
+
+    /* Rounding the corners */
+    border-radius: 10px;
+
+    /* created with the shadow generator */
+    -webkit-box-shadow: 42px 41px 38px 10px rgba(212,41,7,0.66);
+    -moz-box-shadow: 42px 41px 38px 10px rgba(212,41,7,0.66);
+    box-shadow: 42px 41px 38px 10px rgba(212,41,7,0.66);
+
+    text-decoration: none;
+
+    transition: all 0.5s ease;
+}
+
+.button3-container a:hover {
+    background-color: linear-gradient(blue, green);
+    text-decoration: none;    
 }
