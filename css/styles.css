@@ -20,16 +20,17 @@
     display: inline-block;
 }
 
-a { color: #0F0}
-
-.cascading-parent {
-    font-weight: bold;
-    color: #FFF;
+a { font-size: 22px;
+    color: #F0F
 }
 
-.cascading-child {
-    background-color: #000;
-    width: 200px;
-    height: 200px;
-    color: #FF0 !important;
+
+
+.cascading-parent h2 {
+    color: #F00;
+}
+
+.cascading-parent a {
+    font-size: 32px;
+    color: #0F0;
 }
