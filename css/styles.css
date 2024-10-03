@@ -24,8 +24,6 @@ a { font-size: 22px;
     color: #F0F
 }
 
-
-
 .cascading-parent h2 {
     color: #F00;
 }
@@ -33,4 +31,19 @@ a { font-size: 22px;
 .cascading-parent a {
     font-size: 32px;
     color: #0F0;
+}
+
+.site-font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.site-color {
+    background-color: indigo;
+    color: #FFF;
+}
+
+.site-square {
+    width: 200px;
+    height: 200px;
 }
