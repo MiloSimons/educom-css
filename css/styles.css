@@ -1,3 +1,28 @@
+:root {
+    /* FONTS */
+    --regular: "Arial";
+    --fancy: "Times New Roman";
+
+    /* COLORS */
+    --dark-brown: #402214;
+    --lighter-brown: #774231;
+    --lighest-brown: #aa4b1b;
+
+    --darker-red: #b31714;
+    --lighter-red: #dc3439;
+
+    --white: #FFF;
+    --black: #000;
+
+    --big-square-height: 1000px;
+    --big-square-width: 1000px;
+    --small-square-height: 10px;
+    --small-square-width: 10px;
+
+    --big-font: 100px;
+    --small-font: 6px;
+}
+
 .red-square {
     width: 80 px;
     height: 80px;
@@ -66,4 +91,34 @@ a:hover {
 /* selected link */
 a:active {
     color:blue;
+}
+
+.big-square {
+    width: var(--big-square-width);
+    height: var(--big-square-height);
+    color: var(--darker-red);
+    padding: 20px;
+    margin: 10px;
+    font-size: var(--big-font);
+    background-color: var(--black);
+    display: inline-block;
+}
+
+.small-square {
+    width: var(--small-square-width);
+    height: var(--small-square-height);
+    color: var(--white);
+    padding: 20px;
+    margin: 10px;
+    font-size: var(--small-font);
+    background-color: var(--lighter-red);
+    display: inline-block;
+}
+
+.normal-font {
+    font-family: var(--regular);
+}
+
+.fancy-font {
+    font-family: var(--fancy);
 }
